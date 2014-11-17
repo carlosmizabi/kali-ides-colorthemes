@@ -1,0 +1,20 @@
+{
+    "title": "KaliLion",
+    "name": "Kalilion",
+    "description": "KaliLion Theme for Brackets. Dark and minimal. A Kalibuda.com original.",
+    "version": "1.0.0",
+    "author": "",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "kalilion.css",
+        "dark": true
+    }
+}

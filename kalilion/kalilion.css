@@ -1,0 +1,122 @@
+/* SWATCHES ---------------------------------------------------------------------- */
+
+span.cm-builtin     { color: #ffffff; }
+span.cm-def			{ color: #B86E25; font-size: 105%; font-weight: bold;}
+span.cm-header      { color: #ffffff; }
+span.cm-meta		{ color: #ffffff; }
+span.cm-operator	{ color: #ff98ca; }
+span.cm-qualifier	{ color: #ffffff; }
+
+span.cm-atom		{ color: #FF9933;  }
+span.cm-link		{ color: #FF9933; }
+span.cm-number		{ 
+    color: #C1C12E; 
+    font-size: 110%; 
+}
+span.cm-string		{ 
+    color: #ffb51e; 
+}
+span.cm-string-2    { color: #ffb51e; }
+
+span.cm-variable-2	{ color: #C1BA3E; font-size: 105%; font-weight: bold;}
+span.cm-variable-3	{ color: #7FB2E5;  }
+
+span.cm-bracket		{ color: #75bfbf; }
+span.cm-tag			{ color: #75bfbf; }
+
+span.cm-attribute	{ color: #5CADFF; }
+span.cm-property	{ color: #7FB2E5; } /* property after string */
+
+span.cm-comment		{ color: #8a917f; }
+span.cm-error		{ color: #ff98ca; }
+span.cm-keyword		{ color: #F8F8F8 ; }
+span.cm-variable	{ 
+    color:  #C6C359; /*#C6C359; /*#C1C12E ; */
+    font-size: 110%; 
+    font-weight: bold; 
+}
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+   background: #202020;
+/*    background: #1c1c1c;*/
+/*    background: #171c12;*/
+/*    background: #202123;*/
+/*    background: #2d2e30;*/
+	color: #dbe3c9;
+}
+
+.CodeMirror-cursor {
+	border-left: 1px solid #fff !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid #fff !important;
+    border-left: none !important;
+}
+
+.CodeMirror-gutters {
+	background: #2d2e30;
+	border-right: 1px solid #3a3b3e;
+}
+
+.CodeMirror-linenumber {
+	color: #5b626f;
+}
+
+.CodeMirror-selected {
+    background: #005a5a;
+}
+
+/* Active Line */
+
+.CodeMirror-activeline-background {
+	background: #1f2122 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: #fff;
+	background-color: transparent !important;
+}
+
+/* Matching Brackets and Tags */
+
+.CodeMirror-matchingbracket {
+    background: #005a5a !important;
+    color: #fff !important;
+}
+
+.CodeMirror-matchingtag {
+    background: #004a4a !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+	color: #ff50a5 !important;
+}
+
+/* Search Match */
+
+/*
+.CodeMirror-searching {
+    background-color: #ffcd2d;
+    color: #000 !important;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #ff8500;
+}
+*/
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: #2d2e30;
+}
+
+#image-holder {
+    color: #dbe3c9;
+}
